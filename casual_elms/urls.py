@@ -17,6 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from elms import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('sign-in/', views.sign_in, name='check_in'),
+
 ]
