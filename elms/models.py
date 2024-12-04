@@ -8,13 +8,15 @@ class CustomUser(models.Model):
     surname = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
     id_number = models.CharField(max_length=20, unique=True)
-    personal_number_designation = models.CharField(max_length=20, unique=True)
+    personal_number = models.CharField(max_length=20, unique=True)
+    designation=models.CharField(max_length=50)
     gender = models.CharField(
         max_length=10,
         choices=[('Male', 'Male'), ('Female', 'Female'), ('Other', 'Other')],
     )
     email = models.EmailField(unique=True)
     phone_number = models.CharField(max_length=15)
+    department = models.ForeignKey('Department', on_delete=models.SET_NULL, null=True, blank=True)
 
     def __str__(self):
         return f"{self.first_name} {self.surname} ({self.username})"
@@ -60,3 +62,13 @@ class LeaveBalance(models.Model):
 
     def __str__(self):
         return f"LeaveBalance({self.user}, Remaining: {self.remaining_days})"
+
+class Department(models.Model):
+    department_name = models.CharField(max_length=100, unique=True)
+    department_abbreviation = models.CharField(max_length=10, unique=True)
+    department_code = models.CharField(max_length=20, unique=True)
+    creation_date = models.DateTimeField(auto_now_add=True)
+    modified_date = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f"{self.department_name} ({self.department_abbreviation})"
