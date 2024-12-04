@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1496f116-f238-4101-969b-5c4a2b84eeea" name="Changes" comment="initialization">
+    <list default="true" id="1496f116-f238-4101-969b-5c4a2b84eeea" name="Changes" comment="registration of models">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elms/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/elms/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elms/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/elms/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733226314033</updated>
       <workItem from="1733226315441" duration="4675000" />
-      <workItem from="1733292299894" duration="2627000" />
+      <workItem from="1733292299894" duration="5071000" />
     </task>
     <task id="LOCAL-00001" summary="initialization">
       <option name="closed" value="true" />
@@ -107,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733226628091</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="registration of models">
+      <option name="closed" value="true" />
+      <created>1733296283844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733296283844</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +149,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialization" />
+    <MESSAGE value="registration of models" />
+    <option name="LAST_COMMIT_MESSAGE" value="registration of models" />
   </component>
 </project>

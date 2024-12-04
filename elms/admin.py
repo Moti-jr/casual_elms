@@ -17,7 +17,7 @@ class CustomUserAdmin(admin.ModelAdmin):
 class LeaveApplicationAdmin(admin.ModelAdmin):
     list_display = ('user', 'leave_type', 'start_date', 'end_date', 'status', 'applied_on', 'updated_on')
     list_filter = ('leave_type', 'status', 'applied_on')
-    search_fields = ('user__username', 'user__first_name', 'user__surname')
+    search_fields = ( 'user__first_name', 'user__surname')
     date_hierarchy = 'applied_on'
     ordering = ('-applied_on',)
 
@@ -25,7 +25,7 @@ class LeaveApplicationAdmin(admin.ModelAdmin):
 @admin.register(LeaveBalance)
 class LeaveBalanceAdmin(admin.ModelAdmin):
     list_display = ('user', 'total_days', 'used_days', 'remaining_days')
-    search_fields = ('user__username', 'user__first_name', 'user__surname')
+    search_fields = ( 'user__first_name', 'user__surname')
 
 @admin.register(Department)
 class DepartmentAdmin(admin.ModelAdmin):

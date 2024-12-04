@@ -12,14 +12,14 @@ class CustomUser(models.Model):
     designation=models.CharField(max_length=50)
     gender = models.CharField(
         max_length=10,
-        choices=[('Male', 'Male'), ('Female', 'Female'), ('Other', 'Other')],
+        choices=[('Male', 'Male'), ('Female', 'Female')],
     )
     email = models.EmailField(unique=True)
     phone_number = models.CharField(max_length=15)
     department = models.ForeignKey('Department', on_delete=models.SET_NULL, null=True, blank=True)
 
     def __str__(self):
-        return f"{self.first_name} {self.surname} ({self.username})"
+        return f"{self.first_name} {self.surname}"
 
 class LeaveApplication(models.Model):
     LEAVE_TYPE_CHOICES = [
