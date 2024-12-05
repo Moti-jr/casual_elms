@@ -22,5 +22,7 @@ from elms import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('sign-in/', views.sign_in, name='check_in'),
+    path('dashboard/', views.dashboard, name='dashboard'),
+    path('reset_psswd/', views.reset_password, name='reset_psswd'),
 
 ]
