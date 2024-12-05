@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1496f116-f238-4101-969b-5c4a2b84eeea" name="Changes" comment="DRY functionality">
+    <list default="true" id="1496f116-f238-4101-969b-5c4a2b84eeea" name="Changes" comment="static file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +112,7 @@
       <workItem from="1733226315441" duration="4675000" />
       <workItem from="1733292299894" duration="12775000" />
       <workItem from="1733331849810" duration="4104000" />
-      <workItem from="1733376657953" duration="743000" />
+      <workItem from="1733376657953" duration="2212000" />
     </task>
     <task id="LOCAL-00001" summary="initialization">
       <option name="closed" value="true" />
@@ -170,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733336475465</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="static file">
+      <option name="closed" value="true" />
+      <created>1733379692597</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733379692597</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +218,7 @@
     <MESSAGE value="customuser models changes" />
     <MESSAGE value="working on DRY functionality" />
     <MESSAGE value="DRY functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="DRY functionality" />
+    <MESSAGE value="static file" />
+    <option name="LAST_COMMIT_MESSAGE" value="static file" />
   </component>
 </project>
