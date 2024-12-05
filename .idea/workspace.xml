@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1496f116-f238-4101-969b-5c4a2b84eeea" name="Changes" comment="working on DRY functionality">
+    <list default="true" id="1496f116-f238-4101-969b-5c4a2b84eeea" name="Changes" comment="DRY functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +111,8 @@
       <updated>1733226314033</updated>
       <workItem from="1733226315441" duration="4675000" />
       <workItem from="1733292299894" duration="12775000" />
-      <workItem from="1733331849810" duration="3360000" />
+      <workItem from="1733331849810" duration="4104000" />
+      <workItem from="1733376657953" duration="743000" />
     </task>
     <task id="LOCAL-00001" summary="initialization">
       <option name="closed" value="true" />
@@ -163,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733321832523</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="DRY functionality">
+      <option name="closed" value="true" />
+      <created>1733336475465</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733336475465</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +209,7 @@
     <MESSAGE value="forms template" />
     <MESSAGE value="customuser models changes" />
     <MESSAGE value="working on DRY functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on DRY functionality" />
+    <MESSAGE value="DRY functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="DRY functionality" />
   </component>
 </project>
